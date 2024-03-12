@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Roboto+Condensed:wght@100;400;500;800;900&family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,600&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+
+.mr-4{
+    height: 70px;
+    width: 70px;
+    filter: hue-rotate(90deg);
+}
+
+.text-dark{
+    margin-inline: 30px;
+  }
+.logo-container{
+height: 150px;
+width: 100%;
+background-color: #ffffff;
+display: flex;
+padding-inline: auto;
+justify-content: space-around;
+overflow-x: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-container{
+    padding-inline: 0;
+    overflow-x: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+    
+}
+
+
+/* Styles pour les images du carousel */
+.carousel-item img {
+  width: 100%; /* Adapter la largeur de l'image au carousel */
+  height: 700px; /* Hauteur fixe pour maintenir la cohérence */
+  object-fit: cover; /* Redimensionner l'image pour remplir l'espace sans déformer */
+}
+
+/* Styles pour la légende du carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  color: #fff; /* Texte en blanc */
+  padding: 100px; /* Espacement intérieur */
+  bottom: 0; /* Aligner la légende en bas */
+  left: 0;
+  right: 0;
+}
+
+/* Styles pour le texte dans la légende */
+.carousel-caption h1,
+.carousel-caption p {
+  margin: 0; /* Supprimer les marges par défaut */
+}
+
+.rounded-3{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-weight: 800;
+  z-index: 10;
+}
+
+.rounded-3:hover{
+  background-color: #85b168;
+
+}
+
+@media screen and (max-width: 600px) {
+  .hero{
+    margin-bottom: 300px;
+  }
+}
+
+.navbar{
+  padding-inline: 20px;
+  background: radial-gradient(#334155, #0f172a);
+}
+
+.nav-link{
+  color: #fff !important;
+  font-weight: 800;
+  font-size: 23px;
+}
+
+.text-dark{
+  font-size: 25px;
+  color: rgb(76, 129, 79) !important;
+  font-weight: 500;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.text{
+  /* font-size: 30px; */
+  color: rgb(255, 255, 255) !important;
+  /* font-weight: 700; */
+  font-family: 'Rubik', sans-serif; 
+  /* letter-spacing: 3px; */
+}
+
+.media a {
+  font-weight: 900 ;
+  color: gainsboro;
+}
+.text-warning{
+  font-weight: 900 ;
+  /* color: rgb(197, 255, 164); */
+  font-family: 'Roboto Condensed', sans-serif;
+}
