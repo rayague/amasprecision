@@ -1,532 +1,878 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Document title -->
-    <title>Precision Amas</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
-        rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <link rel="icon" type="image/png" href="assets/images/logo.png">
-
-    <!-- Plugins Stylesheets -->
-    <link rel="stylesheet" href="assets/css/loader/loaders.css">
-    <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="assets/css/aos/aos.css">
-    <link rel="stylesheet" href="assets/css/swiper/swiper.css">
-    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
-    <link rel="stylesheet" href="assets/css/retouche.css">
-    <!-- Template Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Responsive Stylesheet -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-
-<body>
-    <!-- <a href="/" class="p-3 rounded-3">Prendre un rendez-vous</a> -->
-    <!-- Loader Start -->
-    <div class="css-loader">
-        <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Amas Précision | Acceuil</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p>Loading...</p>
+      </div>
     </div>
-    <!-- Loader End -->
-    <!-- Header Start -->
-    <header class="">
-        <nav class="navbar navbar-expand-lg" aria-label="Twelfth navbar example">
-            <div class="container-fluid">
-              <button class="navbar-toggler bg-light bg-opacity-10 border border-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-      
-              <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="">Acceuil</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Formations</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./pages/formation1.html">Formation de base en statistique</a></li>
-                      <li><a class="dropdown-item" href="./pages/formation2.html">Formation sur les outils et logiciels spécialisés </a></li>
-                      <li><a class="dropdown-item" href="./pages/formation3.html">Formation en méthodologie de recherche</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                  </li>     
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/venteLogiciels.html"> Logiciels</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Études</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="pages/etudesStatistiques.html">Statistique</a></li>
-                      <li><a class="dropdown-item" href="pages/etudesEconomiques.html">Économique</a></li>
-                      <li><a class="dropdown-item" href="pages/developpementEntreprise.html">Développement des entreprises</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/nousContacter.html">Nous contacter</a>
-                  </li>                
-                </ul>
+    <div class="page">
+      <header class="section page-header rd-navbar-transparent-wrap">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav
+            class="rd-navbar rd-navbar-transparent"
+            data-layout="rd-navbar-fixed"
+            data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed"
+            data-md-device-layout="rd-navbar-fixed"
+            data-lg-layout="rd-navbar-static"
+            data-lg-device-layout="rd-navbar-static"
+            data-xl-layout="rd-navbar-static"
+            data-xl-device-layout="rd-navbar-static"
+            data-lg-stick-up-offset="20px"
+            data-xl-stick-up-offset="20px"
+            data-xxl-stick-up-offset="20px"
+            data-lg-stick-up="true"
+            data-xl-stick-up="true"
+            data-xxl-stick-up="true"
+          >
+            <div
+              class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
+              data-rd-navbar-toggle=".rd-navbar-collapse"
+            >
+              <span></span>
+            </div>
+
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main-inner">
+                <div class="rd-navbar-main">
+                  <!--RD Navbar Panel-->
+                  <div class="rd-navbar-panel">
+                    <!--RD Navbar Toggle-->
+                    <button
+                      class="rd-navbar-toggle"
+                      data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                    >
+                      <span></span>
+                    </button>
+                    <!--RD Navbar Brand-->
+                    <div class="rd-navbar-brand">
+                      <!--Brand--><a class="brand" href="index.html"
+                        ><img
+                          class="brand-logo-dark"
+                          src="images/logo.png"
+                          alt=""
+                          width="146"
+                          height="22" /><img
+                          class="brand-logo-light"
+                          src="images/logo.png"
+                          alt=""
+                          width="155"
+                          height="22"
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-main-element">
+                    <div class="rd-navbar-nav-wrap">
+                      <ul class="rd-navbar-nav">
+                        <li class="rd-nav-item active">
+                          <a class="rd-nav-link" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="rd-nav-item dropdown">
+                          <a
+                            class="rd-nav-link dropdown-toggle"
+                            href="#"
+                            id="etudesDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            Formation
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="etudesDropdown"
+                          >
+                            <a
+                              class="dropdown-item"
+                              href="pages/formation1.html"
+                              >Formation de base en Statistique</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              href="pages/formation2.html"
+                              >Formation sur les outils et logiciels
+                              spécialisés</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              href="pages/formation3.html"
+                              >Formation en méthodologie de recherche</a
+                            >
+                            <!-- Vous pouvez ajouter d'autres liens ici -->
+                          </div>
+                        </li>
+
+                        <!-- Dropdown pour Logiciels -->
+                        <li class="rd-nav-item dropdown">
+                          <a
+                            class="rd-nav-link dropdown-toggle"
+                            href="#"
+                            id="logicielsDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            Études
+                          </a>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="logicielsDropdown"
+                          >
+                            <a
+                              class="dropdown-item"
+                              href="pages/etudesStatistiques.html"
+                              >Statistique</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              href="pages/etudesEconomiques.html"
+                              >Économique</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              href="pages/developpementEntreprise.html"
+                              >Développement des entreprises</a
+                            >
+                            <!-- Vous pouvez ajouter d'autres liens ici -->
+                          </div>
+                        </li>
+                        <li class="rd-nav-item">
+                          <a class="rd-nav-link" href="contacts.html"
+                            >Contacts</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-        </nav>
-        <div class="logo-container px-auto">
-            <a class="navbar-brand mx-auto" href="index.html"><img src="assets/images/logo.png" alt="Multipurpose"></a>
-            <p class="text-dark my-auto mx-auto">Bienvenue sur le site de Precision Amas. Excellence et précision au service de vos besoins.</p>
+          </nav>
         </div>
-        
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </header>
+      <!--Swiper-->
+      <section
+        class="section swiper-container swiper-slider swiper-slider-1 context-dark"
+        data-loop="true"
+        data-autoplay="5000"
+        data-simulate-touch="false"
+      >
+        <div class="swiper-wrapper">
+          <!-- Première diapositive -->
+          <div class="swiper-slide" data-slide-bg="images/image8.webp">
+            <div class="swiper-slide-caption section-lg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                    <h1>
+                      <span
+                        class="d-block"
+                        data-caption-animate="fadeInUp"
+                        data-caption-delay="100"
+                        >Consultations Personnalisées</span
+                      >
+                      <span
+                        class="d-block text-light"
+                        data-caption-animate="fadeInUp"
+                        data-caption-delay="200"
+                        >pour une meilleure prise de décision</span
+                      >
+                    </h1>
+                    <p
+                      class="lead"
+                      data-caption-animate="fadeInUp"
+                      data-caption-delay="350"
+                    >
+                      Nos experts vous accompagnent avec des conseils adaptés
+                      pour optimiser vos choix stratégiques et faire avancer vos
+                      projets.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/statistics10.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Expertise Statistique</h1>
-                    <p>Une analyse précise pour des décisions éclairées</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/statistics4.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Conception Web Personnalisée</h1>
-                    <p>Création sur mesure pour votre vision unique</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/statistics17.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Services de Consultation</h1>
-                    <p>Guidance professionnelle pour vos défis stratégiques</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/statistics25.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Formation sur Mesure</h1>
-                    <p>Un enseignement adapté à vos besoins spécifiques</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-    </header>
-    
-    <!-- Header End -->
-    <!-- Hero Start -->
 
-    <section class="services" id="services">
-        <div class="container">
-            <div class="title text-center">
-                <!-- <h6>Our Speakers</h6> -->
-                <h1 class="title-blue">Nos Services</h1>
-            </div>
-            <div class="container">
+          <!-- Deuxième diapositive -->
+          <div class="swiper-slide" data-slide-bg="images/image6.webp">
+            <div class="swiper-slide-caption section-lg">
+              <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="media" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
-                            <a href="./pages/consultations.html">
-                                <img class="mr-4" src="assets/images/services1.png" alt="Web Development">
-                            </a>
-                            <div class="media-body">
-                                <h5>CONSULTATIONS</h5>
-                                Nos experts sont à votre disposition pour vous fournir des conseils personnalisés et des solutions adaptées à vos besoins.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="media" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
-                            <a href="./pages/venteLogiciels.html">
-                                <img class="mr-4" src="assets/images/services2.png" alt="Web Development">
-                            </a>
-                            <div class="media-body">
-                                <h5>LOGICIELS</h5>
-                                Nous développons des logiciels statistiques sur mesure pour répondre à vos exigences spécifiques et optimiser vos processus.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="media" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
-                            <a href="./pages/etudesEconomiques.html">
-                                <img class="mr-4" src="assets/images/services3.png" alt="Web Development">
-                            </a>
-                            <div class="media-body">
-                                <h5>ÉTUDES</h5>
-                                Confiez-nous vos projets d'études statistiques et bénéficiez de notre expertise pour analyser, interpréter et présenter vos données de manière claire et concise.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="media" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
-                            <a href="./pages/enquetes.html">
-                                <img class="mr-4" src="assets/images/services4.png" alt="Web Development">
-                            </a>
-                            <div class="media-body">
-                                <h5>ENQUÊTES</h5>
-                                Nous vous accompagnons dans toutes les étapes de vos enquêtes statistiques, de la conception du questionnaire à l'analyse des résultats.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="media" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
-                            <a href="./pages/formations.html">
-                                <img class="mr-4" src="assets/images/services5.png" alt="Web Development">
-                            </a>
-                            <div class="media-body">
-                                <h5>FORMATIONS</h5>
-                                Nos formations en statistique vous permettent de renforcer les compétences de votre équipe et d'exploiter pleinement le potentiel de vos données.
-                            </div>
-                        </div>
-                    </div>
+                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                    <h1>
+                      <span
+                        class="d-block"
+                        data-caption-animate="fadeInUp"
+                        data-caption-delay="100"
+                        >Développement de Logiciels</span
+                      >
+                      <span
+                        class="d-block text-light"
+                        data-caption-animate="fadeInUp"
+                        data-caption-delay="200"
+                        >Sur mesure pour vos besoins</span
+                      >
+                    </h1>
+                    <p
+                      class="lead"
+                      data-caption-animate="fadeInUp"
+                      data-caption-delay="350"
+                    >
+                      Nous créons des solutions logicielles puissantes et
+                      personnalisées pour optimiser vos processus et analyser
+                      vos données efficacement.
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+
+          <!-- Troisième diapositive -->
+          <div class="swiper-slide" data-slide-bg="images/image9.jpg">
+            <div class="swiper-slide-caption section-lg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                    <h1>
+                      <span
+                        class="d-block"
+                        data-caption-animate="fadeInUp"
+                        data-caption-delay="100"
+                        >Expertise en Études Statistiques</span
+                      >
+                      <span
+                        class="d-block text-light"
+                        data-caption-animate="fadeInUp"
+                        data-caption-delay="200"
+                        >Analyse claire et précise de vos données</span
+                      >
+                    </h1>
+                    <p
+                      class="lead"
+                      data-caption-animate="fadeInUp"
+                      data-caption-delay="350"
+                    >
+                      Confiez-nous vos projets d’études statistiques et
+                      bénéficiez de notre expertise pour interpréter et
+                      présenter vos résultats de manière optimale.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    
-    <!-- Services End -->
-    <!-- Featured Start -->
-    <section class="featured" id="Apropos">
-        <div class="container">
+
+        <!--Swiper Pagination-->
+        <div class="swiper-pagination-wrap">
+          <div class="container">
             <div class="row">
-                <div class="col-md-6" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">
-                    <div class="title">
-                        <h6 class="title-secondary">A propos de nous</h6>
-                        <h1 class="title-blue">Votre partenaire en statistique à Cotonou, Bénin</h1>
-                    </div>
-                    <p>Spécialisée dans l'analyse statistique, Precision Amas est une entreprise basée à Cotonou, au Bénin, offrant des solutions de données sur mesure pour répondre aux besoins de votre entreprise. Notre équipe expérimentée vous accompagne dans la compréhension de vos données et dans la prise de décisions éclairées.</p>
-                    <div class="media-element d-flex justify-content-between">
-                        <div class="media">
-                            <i class="fa fa-magic mr-4"></i>
-                            <div class="media-body">
-                                <h5>Services personnalisés</h5>
-                                Cotonou, Bénin
-                            </div>
-                        </div>
-                        <div class="media">
-                            <i class="fa fa-magic mr-4"></i>
-                            <div class="media-body">
-                                <h5>Expertise locale</h5>
-                                Cotonou, Bénin
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <a href="#" class="btn btn-primary">Voir plus</a> -->
-                </div>
-                <div class="col-md-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
-                    <div class="featured-img">
-                        <img class="featured-big img-fluid" src="assets/images/image8.jpg" alt="Featured 1">
-                        <img class="featured-small" style="height: 250px; width: 250px;" src="assets/images/image7.jpg" alt="Featured 2">
-                    </div>
-                </div>
+              <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                <div class="swiper-pagination"></div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    
-    <!-- Featured End -->
-    <!-- Recent Posts Start -->
-    <section class="recent-posts">
+      </section>
+      <!--Icon List 2-->
+
+      <section class="section section-sm section-sm-bottom-100 bg-primary">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 ">
-                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right" data-aos-duration="800">
-                        <div class="post-content text-sm-right">
-                            <time datetime="2023-01-28">28 janvier 2023</time>
-                            <h3><a href="#">Analyse statistique en agroalimentaire</a></h3>
-                            <p>Analyse des tendances du marché pour optimiser la production.</p>
-                            <a class="post-btn" href="#"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                        <div class="post-thumb">
-                            <img class="img-fluid" src="assets/images/statistics11.jpg" alt="Post 1">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-left" data-aos-duration="800">
-                        <div class="post-thumb">
-                            <img class="img-fluid" src="assets/images/statistics13.jpg" alt="Post 1">
-                        </div>
-                        <div class="post-content">
-                            <time datetime="2019-10-15">15 octobre 2019</time>
-                            <h3><a href="#">Analyse statistique en santé</a></h3>
-                            <p>Optimisation des protocoles de traitement.</p>
-                            <a class="post-btn" href="#"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
-                        <div class="post-content text-sm-right">
-                            <time datetime="2019-10-15">15 octobre 2019</time>
-                            <h3><a href="#">Consultations statistiques pour les entreprises locales</a></h3>
-                            <p>Services de consultations personnalisées pour optimiser les opérations des entreprises.</p>
-                            <a class="post-btn" href="#"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                        <div class="post-thumb">
-                            <img class="img-fluid" src="assets/images/statistics17.jpg" alt="Post 1">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
-                        <div class="post-thumb">
-                            <img class="img-fluid" src="assets/images/statistics15.jpg" alt="Post 1">
-                        </div>
-                        <div class="post-content">
-                            <time datetime="2019-10-15">15 octobre 2019</time>
-                            <h3><a href="#">Analyse statistique pour les études de marché</a></h3>
-                            <p>Analyse des données des études de marché pour développer des stratégies efficaces.</p>
-                            <a class="post-btn" href="#"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+          <div class="row row-30">
+            <!-- Service 1: Consultations -->
+            <div class="col-md-4 wow fadeInUp">
+              <div class="box-icon-2">
+                <a href="pages/consultations.html">
+                  <img
+                    class="mr-4"
+                    src="images/services1.png"
+                    alt="Consultations"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      filter: brightness(0) invert(1);
+                    "
+                  />
+                </a>
+                <h5 class="title">Consultations</h5>
+                <p class="text">
+                  Nos experts sont à votre disposition pour vous fournir des
+                  conseils personnalisés et des solutions adaptées à vos besoins
+                  spécifiques en statistique et gestion de données.
+                </p>
+              </div>
             </div>
-            <div class="text-center">
-                <!-- <a href="#" class="btn btn-primary">Voir plus</a> -->
+
+            <!-- Service 2: Logiciels -->
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box-icon-2">
+                <a href="pages/venteLogiciels.html">
+                  <img
+                    class="mr-4"
+                    src="images/services2.png"
+                    alt="Logiciels"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      filter: brightness(0) invert(1);
+                    "
+                  />
+                </a>
+                <h5 class="title">Logiciels Sur-Mesure</h5>
+                <p class="text">
+                  Nous développons des logiciels statistiques sur mesure pour
+                  répondre à vos exigences spécifiques et optimiser vos
+                  processus d'analyse et de gestion des données.
+                </p>
+              </div>
             </div>
+
+            <!-- Service 3: Études -->
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+              <div class="box-icon-2">
+                <a href="pages/etudesEconomiques.html">
+                  <img
+                    class="mr-4"
+                    src="images/services3.png"
+                    alt="Études"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      filter: brightness(0) invert(1);
+                    "
+                  />
+                </a>
+                <h5 class="title">Études Statistiques</h5>
+                <p class="text">
+                  Confiez-nous vos projets d'études statistiques et bénéficiez
+                  de notre expertise pour analyser, interpréter et présenter vos
+                  données de manière claire et précise.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service 4: Enquêtes -->
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="box-icon-2">
+                <a href="pages/enquetes.html">
+                  <img
+                    class="mr-4"
+                    src="images/services4.png"
+                    alt="Enquêtes"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      filter: brightness(0) invert(1);
+                    "
+                  />
+                </a>
+                <h5 class="title">Enquêtes Statistiques</h5>
+                <p class="text">
+                  Nous vous accompagnons dans toutes les étapes de vos enquêtes
+                  statistiques, de la conception des questionnaires à l'analyse
+                  des résultats, pour des insights fiables et détaillés.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service 5: Formations -->
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.8s">
+              <div class="box-icon-2">
+                <a href="pages/formations.html">
+                  <img
+                    class="mr-4"
+                    src="images/services5.png"
+                    alt="Formations"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      filter: brightness(0) invert(1);
+                    "
+                  />
+                </a>
+                <h5 class="title">Formations en Statistique</h5>
+                <p class="text">
+                  Nos formations spécialisées en statistique permettent de
+                  renforcer les compétences de vos équipes, afin de maximiser
+                  l'exploitation des données et d'améliorer les performances de
+                  votre organisation.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    
-    
-    <!-- Recent Posts End -->
-    <!-- Trust Start -->
-    <section class="trust">
+      </section>
+
+      <!-- Découvrez l'impact de Amas Precision au Bénin -->
+      <section class="section bg-gray-100 box-image-left">
         <div class="container">
-            <div class="row">
-                <div class="offset-xl-1 col-xl-6" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
-                    <div class="title">
-                        <h6 class="title-secondary">Statistiques en Agriculture au Bénin</h6>
-                        <h1>Des résultats précis pour optimiser les rendements</h1>
+          <div class="row">
+            <div class="col-md-6 wow fadeInLeft">
+              <div class="section-lg section-lg-top-100">
+                <h2 class="title-icon title-icon-2">
+                  <span class="icon icon-default mercury-icon-touch"></span>
+                  <span
+                    >Découvrez l'impact de <br /><span class="text-light"
+                      >Amas Precision au Bénin</span
+                    ></span
+                  >
+                </h2>
+                <p class="big">
+                  À Amas Precision, nous sommes fiers d'apporter notre expertise
+                  statistique à la communauté béninoise. Grâce à nos services
+                  personnalisés en analyse de données et en gestion statistique,
+                  nous accompagnons les entreprises locales, les institutions
+                  publiques et les organisations à mieux comprendre leurs
+                  données et à prendre des décisions stratégiques éclairées.
+                  Notre engagement est de contribuer à l'essor économique du
+                  Bénin en fournissant des solutions sur mesure adaptées à vos
+                  besoins spécifiques.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box-image-item box-image-video novi-background bg-image"
+          style="background-image: url(images/image12.webp)"
+        >
+          <a
+            class="icon novi-icon fa fa-caret-right"
+            href="//www.youtube.com/embed/KFVUxSynSXc"
+            data-lightgallery="item"
+          ></a>
+        </div>
+      </section>
+
+      <!-- Our Mission-->
+      <section class="section bg-default section-md">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-6">
+              <h2 class="title-icon">
+                <span class="icon icon-default mercury-icon-target-2"></span>
+                <span>Notre <span class="text-light">Mission</span></span>
+              </h2>
+              <p class="big">
+                **Amas Precision** est une entreprise spécialisée dans l’analyse
+                statistique, basée à **Cotonou**, au **Bénin**. Notre mission
+                est de fournir des solutions statistiques de qualité supérieure
+                pour les entreprises, les institutions publiques et les
+                organisations, afin d'optimiser la gestion des données et de
+                prendre des décisions éclairées.
+                <br /><br />
+                Nous nous engageons à accompagner nos clients dans l'analyse des
+                données agricoles, économiques et sociales pour maximiser leur
+                performance. Grâce à des services personnalisés, des formations
+                spécialisées et une approche locale, nous contribuons à
+                l'amélioration continue des résultats et à l'optimisation des
+                rendements dans divers secteurs, notamment l'agriculture.
+              </p>
+              <ul class="list-marked-2">
+                <li>
+                  Fournir des services statistiques de haute qualité adaptés aux
+                  besoins spécifiques des clients
+                </li>
+                <li>
+                  Partager notre expertise locale pour améliorer la gestion des
+                  données
+                </li>
+                <li>
+                  Apporter un soutien complet à nos clients pour une prise de
+                  décision stratégique éclairée
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-6">
+                  <!--Box counter-->
+                  <div class="box-counter">
+                    <div class="box-counter-main">
+                      <div class="counter">750</div>
                     </div>
-                    <p>La statistique joue un rôle crucial dans l'agriculture au Bénin en permettant d'analyser les données agricoles pour prendre des décisions éclairées et améliorer les rendements. Voici quelques exemples de résultats obtenus :</p>
-                    <h5>Exemples de résultats :</h5>
-                    <ul class="list-unstyled">
-                        <li>Rendement moyen par hectare pour le maïs : 3,5 tonnes</li> <br>
-                        <li>Taux de croissance annuel de la production de coton : 6%</li>
-                        <li>Prévalence des maladies des cultures dans la région du Centre : 12%</li>
-                        <li>Impact de l'utilisation d'engrais sur la productivité des cultures : +25%</li>
+                    <p class="box-counter-title">Clients satisfaits</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <!--Box counter-->
+                  <div class="box-counter">
+                    <div class="box-counter-main">
+                      <div class="counter">50</div>
+                    </div>
+                    <p class="box-counter-title">Membres de l'équipe</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <!--Box counter-->
+                  <div class="box-counter">
+                    <div class="box-counter-main">
+                      <div class="counter">100</div>
+                    </div>
+                    <p class="box-counter-title">Cas réussis</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <!--Box counter-->
+                  <div class="box-counter">
+                    <div class="box-counter-main">
+                      <div class="counter">99</div>
+                      <span>%</span>
+                    </div>
+                    <p class="box-counter-title">Taux de satisfaction</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Articles -->
+      <section class="section bg-default section-md">
+        <div class="container">
+          <h2 class="title-icon">
+            <span class="icon icon-default mercury-icon-news"></span>
+            <span
+              >Articles Récents
+              <span class="text-light">Statistiques</span></span
+            >
+          </h2>
+          <div class="box-image-small box-image-small-left">
+            <div
+              class="item-image bg-image novi-nackground"
+              style="background-image: url(images/statistics4.jpg)"
+            ></div>
+            <div class="item-body wow fadeInRight">
+              <p>28 janvier 2023</p>
+              <h4><a href="#">Analyse statistique en agroalimentaire</a></h4>
+              <p class="big">
+                Analyse des tendances du marché pour optimiser la production.
+              </p>
+            </div>
+          </div>
+          <div class="box-image-small box-image-small-right">
+            <div
+              class="item-image bg-image novi-nackground"
+              style="background-image: url(images/statistics18.jpg)"
+            ></div>
+            <div class="item-body wow fadeInLeft">
+              <p>15 octobre 2019</p>
+              <h4><a href="#">Analyse statistique en santé</a></h4>
+              <p class="big">Optimisation des protocoles de traitement.</p>
+            </div>
+          </div>
+          <div class="box-image-small box-image-small-left">
+            <div
+              class="item-image bg-image novi-nackground"
+              style="background-image: url(images/statistics2.jpg)"
+            ></div>
+            <div class="item-body wow fadeInRight">
+              <p>15 octobre 2019</p>
+              <h4>
+                <a href="#"
+                  >Consultations statistiques pour les entreprises locales</a
+                >
+              </h4>
+              <p class="big">
+                Services de consultations personnalisées pour optimiser les
+                opérations des entreprises.
+              </p>
+            </div>
+          </div>
+          <div class="box-image-small box-image-small-right">
+            <div
+              class="item-image bg-image novi-nackground"
+              style="background-image: url(images/statistics15.jpg)"
+            ></div>
+            <div class="item-body wow fadeInLeft">
+              <p>15 octobre 2019</p>
+              <h4>
+                <a href="#">Analyse statistique pour les études de marché</a>
+              </h4>
+              <p class="big">
+                Analyse des données des études de marché pour développer des
+                stratégies efficaces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="section footer-classic">
+        <div class="footer-inner-1">
+          <div class="container">
+            <div class="row row-40">
+              <div class="col-md-5 col-lg-3">
+                <h5>Nos Contacts</h5>
+                <ul class="contact-list font-weight-bold">
+                  <li>
+                    <div class="unit unit-spacing-xs">
+                      <div class="unit-left">
+                        <div
+                          class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"
+                        ></div>
+                      </div>
+                      <div class="unit-body">
+                        <a href="#"
+                          >N° DE PARCELLE lLot 254 <br />MAISON AMOUR GBAGUIDI
+                          AMOUSSOU, <br />Dangbo-Honmè, <br />Dangbo, Ouémé,
+                          <br />Cotonou, Bénin</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-xs">
+                      <div class="unit-left">
+                        <div
+                          class="icon icon-sm icon-primary novi-icon mdi mdi-phone"
+                        ></div>
+                      </div>
+                      <div class="unit-body">
+                        <a href="tel:+22957350951"
+                          >+229 57 35 09 51 / +229 63 70 13 96</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-xs">
+                      <div class="unit-left">
+                        <div
+                          class="icon icon-sm icon-primary novi-icon mdi mdi-clock"
+                        ></div>
+                      </div>
+                      <div class="unit-body">
+                        <ul class="list-0">
+                          <li>Du lundi au vendredi : 8h00 – 17h00</li>
+                          <li>Week-ends : Fermé</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <a
+                  class="d-inline-block big"
+                  href="mailto:amasprecision@gmail.com"
+                  >amasprecision@gmail.com</a
+                >
+              </div>
+              <div class="col-md-6 col-lg-5">
+                <h5>Liens</h5>
+                <div class="row row-5 justify-content-between">
+                  <div class="col-sm-6">
+                    <ul class="footer-list big">
+                      <li>
+                        <a href="https://www.impots.gouv.bj" target="_blank"
+                          >Publications fiscales (Bénin)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.cen-sa.org" target="_blank"
+                          >Centre des Impôts du Bénin</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.bceao.int" target="_blank"
+                          >Banque Centrale des Etats de l'Afrique de l'Ouest
+                          (BCEAO)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.dgi.bj" target="_blank"
+                          >Direction Générale des Impôts du Bénin</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.ouemegov.bj" target="_blank"
+                          >Ouémé - Informations économiques</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.afdb.org/en" target="_blank"
+                          >Banque Africaine de Développement - Financement et
+                          Investissement</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.investinbenin.com" target="_blank"
+                          >Investir au Bénin</a
+                        >
+                      </li>
                     </ul>
+                  </div>
+                  <div class="col-sm-4 col-lg-6 col-xxl-5">
+                    <ul class="footer-list big">
+                      <li>
+                        <a href="https://www.cnb-bj.org" target="_blank"
+                          >Commission Nationale des Marchés de l’Investissement
+                          (CNB)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.cotonchad.com" target="_blank"
+                          >CotonChad - Agriculture et Investissement</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.banqueatlantique.net"
+                          target="_blank"
+                          >Banque Atlantique - Services financiers</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.benincoton.org" target="_blank"
+                          >Bénin Coton - Secteur Agricole et Investissement</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.fisc.bj" target="_blank"
+                          >Système fiscal et impôts du Bénin</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com" target="_blank"
+                          >LinkedIn - Professionnels de la finance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.investisseur.com" target="_blank"
+                          >Ressources pour investisseurs</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col-xl-5 gallery">
-                    <div class="row no-gutters h-100" id="lightgallery">
-                        <a href="https://lorempixel.com/600/400/" class="w-50 h-100 gal-img" data-aos="fade-up"
-                            data-aos-delay="200" data-aos-duration="400">
-                            <img class="img-fluid" src="assets/images/statistics18.jpg" alt="Gallery Image">
-                            <!-- <i class="fa fa-caret-right"></i> -->
-                        </a>
-                        <a href="https://lorempixel.com/600/400/" class="w-50 h-50 gal-img" data-aos="fade-up"
-                            data-aos-delay="400" data-aos-duration="600">
-                            <img class="img-fluid" src="assets/images/statistics14.jpg" alt="Gallery Image">
-                            <!-- <i class="fa fa-caret-right"></i> -->
-                        </a>
-                        <a href="https://lorempixel.com/600/400/" class="w-50 h-50 gal-img gal-img3" data-aos="fade-up"
-                            data-aos-delay="0" data-aos-duration="600">
-                            <img class="img-fluid" src="assets/images/statistics2.jpg" alt="Gallery Image">
-                            <!-- <i class="fa fa-caret-right"></i> -->
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+              </div>
 
-    <!-- Trust End -->
-    <!-- Pricing Start -->
-    <!-- Testimonial and Clients Start -->
-    <section class="testimonial-and-clients">
-        <div class="container">
-            <div class="testimonials">
-                <div class="swiper-container test-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide text-center">
-                            <div class="row">
-                                <div class="offset-lg-1 col-lg-10">
-                                    <div class="test-img" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"><img
-                                            src="assets/images/logo.png" alt="Testimonial 1"></div>
-                                    <h5 data-aos="fade-up" class="text-light" data-aos-delay="200" data-aos-duration="600"
-                                        data-aos-offset="0">Amas</h5>
-                                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
-                                        data-aos-offset="0">Precision
-                                        </span>
-                                    <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
-                                        data-aos-offset="0">Grâce à la collaboration avec Precision Amas, nous avons pu tirer des insights précieux de nos données qui ont transformé notre approche stratégique. Leur expertise en statistiques a été indispensable pour prendre des décisions éclairées et atteindre nos objectifs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div class="row">
-                                <div class="offset-lg-1 col-lg-10">
-                                    <div class="test-img" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"><img
-                                            src="assets/images/logo.png" alt="Testimonial 1"></div>
-                                    <h5 data-aos="fade-up" class="text-light" data-aos-delay="200" data-aos-duration="600"
-                                        data-aos-offset="0">Amas</h5>
-                                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
-                                        data-aos-offset="0">Precision
-                                        </span>
-                                    <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
-                                        data-aos-offset="0">Precision Amas a été un partenaire exceptionnel dans notre parcours d'innovation. Leur approche personnalisée et leur engagement envers l'excellence ont été la clé de notre réussite conjointe.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div class="row">
-                                <div class="offset-lg-1 col-lg-10">
-                                    <div class="test-img" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"><img
-                                            src="assets/images/logo.png" alt="Testimonial 1"></div>
-                                    <h5 data-aos="fade-up" class="text-light" data-aos-delay="200" data-aos-duration="600"
-                                        data-aos-offset="0">Amas</h5>
-                                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
-                                        data-aos-offset="0">Precision
-                                        </span>
-                                    <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
-                                        data-aos-offset="0">Dans un monde de plus en plus axé sur les données, nous avons trouvé en Precision Amas un partenaire de confiance pour nous guider à travers les complexités de l'analyse statistique. Leurs solutions sur mesure ont eu un impact significatif sur notre entreprise.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="test-pagination"></div>
+              <div class="col-md-12 col-lg-4">
+                <h5>Nos Partenaires</h5>
+                <div class="row row-30 align-items-center text-center">
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <a class="link-image" href="#"
+                      ><img
+                        src="images/partenaire1.png"
+                        alt=""
+                        width="144"
+                        height="35"
+                    /></a>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <a class="link-image" href="#"
+                      ><img
+                        src="images/partenaire2.jpg"
+                        alt=""
+                        width="121"
+                        height="34"
+                    /></a>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <a class="link-image" href="#"
+                      ><img
+                        src="images/partenaire3.png"
+                        alt=""
+                        width="121"
+                        height="16"
+                    /></a>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <a class="link-image" href="#"
+                      ><img
+                        src="images/partenaire4.png"
+                        alt=""
+                        width="101"
+                        height="38"
+                    /></a>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <a class="link-image" href="#"
+                      ><img
+                        src="images/partenaire5.png"
+                        alt=""
+                        width="107"
+                        height="26"
+                    /></a>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <a class="link-image" href="#"
+                      ><img
+                        src="images/partenaire7.png"
+                        alt=""
+                        width="97"
+                        height="26"
+                    /></a>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="clients" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
-                <div class="swiper-container clients-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide mx-4">
-                            <img src="assets/images/partenaire1.png" alt="Client 1">
-                        </div>
-                        <div class="swiper-slide mx-4">
-                            <img src="assets/images/partenaire2.jpg" alt="Client 2">
-                        </div>
-                        <div class="swiper-slide mx-4">
-                            <img src="assets/images/partenaire3.png" alt="Client 3">
-                        </div>
-                        <!-- <div class="swiper-slide mx-4">
-                            <img src="assets/images/partenaire7.png" alt="Client 4">
-                        </div> -->
-                        <div class="swiper-slide mx-4">
-                            <img src="assets/images/partenaire4.png" alt="Client 5">
-                        </div>
-                    </div>
-                    <div class="test-pagination"></div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-    <footer>
-        <!-- Widgets Start -->
-        <div class="footer-widgets" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-xl-6">
-                        <div class="single-widget contact-widget" data-aos="fade-up" data-aos-delay="0">
-                            <h6 class="widget-title">&nbsp;</h6>
-                            <p class="text">En vous abonnant à notre liste de diffusion, vous serez toujours informé des dernières nouvelles nous concernant.</p>
-                            <div class="media">
-                                <i class="fa fa-map-marker"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Adresse</h6>
-                                    <p class="text-warning">
-                                        N° DE PARCELLE lLot 254 <br>
-                                        MAISON AMOUR GBAGUIDI AMOUSSOU, <br>
-                                        Dangbo-Honmè, <br>
-                                        Dangbo, Ouémé, <br>
-                                        Cotonou, Bénin
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <i class="fa fa-envelope-o"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Besoin d'aide ?</h6>
-                                    <a href="mailto:amasprecision@gmail.com" class="text-warning">amasprecision@gmail.com</a>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <i class="fa fa-phone"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Contactez-nous</h6>
-                                    <a href="tel:+22961108883" class="text-warning"> +229 57 35 09 51 / +229 63 70 13 96</a>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <i class="fa fa-phone"></i>
-                                <div class="media-body ml-3">
-                                    <h6>IFU</h6>
-                                    <a href="tel:+22961108883" class="text-warning"> 0202011522738</a>
-                                </div>
-                            </div>
-                            <p class="mt-3 text">Notre équipe est là pour répondre à toutes vos questions et vous fournir l'assistance nécessaire.</p>
-                        </div>
-                        
-                    </div>
-                    </div> 
-                    <div class="col-md-8 col-xl-6">
-                        <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
-                            <!-- <h6 class="widget-title">Abonnez-vous à notre newsletter</h6> -->
-                            <p class="text">Inscrivez-vous à notre liste de diffusion pour recevoir les dernières mises à jour et offres.</p>
-                            <p class="text">Nous respectons votre vie privée.</p>
-                            <ul class="nav social-nav">
-                                <li><a href="https://www.facebook.com/precisionamas" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
+        <div class="footer-inner-2">
+          <div class="container">
+            <p class="rights">
+              <span>&copy;&nbsp;</span><span class="copyright-year">2024</span>.
+              Tous droits réservés. Conçu par
+              <a href="/">Amas Précision</a>
+            </p>
+          </div>
         </div>
-        <!-- Widgets End -->
-        <!-- Foot Note Start -->
-        <div class="foot-note">
-            <div class="container">
-                <div
-                    class="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
-                    <p class="mb-0" data-aos="fade-right" data-aos-offset="0">&copy; 2024 Tous droits réservés.<a href="" class="text-success">Precision Amas</a>.</p>
-                    <p class="mb-0" style="text-decoration: none;"  data-aos="fade-left" data-aos-offset="0"><a href="./pages/conditionUtilisation.html">Conditions d'utilisation</a><a
-                            href="./pages/confidentialite.html">
-                            Déclaration de confidentialité et de sécuritét</a></p>
-                </div>
-            </div>
-        </div>
-        <!-- Foot Note End -->
-    </footer>
-    <!-- Footer Endt -->
-    <!--jQuery-->
-    <script src="assets/js/jquery-3.3.1.js"></script>
-    <!--Plugins-->
-    <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/loaders.css.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/lightgallery-all.min.js"></script>
-    <!--Template Script-->
-    <script src="assets/js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-</body>
-
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--coded by Starlight-->
+  </body>
 </html>
